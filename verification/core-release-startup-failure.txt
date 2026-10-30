@@ -1,0 +1,35 @@
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: FATAL EXCEPTION: main
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: Process: cloud.ohiofiles.app, PID: 14090
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: java.lang.RuntimeException: Unable to get provider androidx.startup.InitializationProvider
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8998)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread.installContentProviders(ActivityThread.java:8488)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:8149)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread.-$$Nest$mhandleBindApplication(Unknown Source:0)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2693)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:132)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.os.Looper.dispatchMessage(Looper.java:333)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:263)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:367)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:9317)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:569)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:929)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: Caused by: c5.c: java.lang.NoSuchMethodException: androidx.work.impl.WorkDatabase_Impl.<init> []
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at c5.a.b(r8-map-id-d36c415eba3791ecb00b0d27bde13151ab65d5b09c9b5e970b1680c9d7cec2dd:105)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at c5.a.a(r8-map-id-d36c415eba3791ecb00b0d27bde13151ab65d5b09c9b5e970b1680c9d7cec2dd:84)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at androidx.startup.InitializationProvider.onCreate(r8-map-id-d36c415eba3791ecb00b0d27bde13151ab65d5b09c9b5e970b1680c9d7cec2dd:55)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2686)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.content.ContentProvider.attachInfo(ContentProvider.java:2655)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at android.app.ActivityThread.installProvider(ActivityThread.java:8995)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	... 12 more
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: Caused by: java.lang.NoSuchMethodException: androidx.work.impl.WorkDatabase_Impl.<init> []
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at java.lang.Class.getConstructor0(Class.java:3379)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at java.lang.Class.getDeclaredConstructor(Class.java:3061)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at g5.q.n(r8-map-id-d36c415eba3791ecb00b0d27bde13151ab65d5b09c9b5e970b1680c9d7cec2dd:543)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at androidx.work.WorkManagerInitializer.b(r8-map-id-d36c415eba3791ecb00b0d27bde13151ab65d5b09c9b5e970b1680c9d7cec2dd:57)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	at c5.a.b(r8-map-id-d36c415eba3791ecb00b0d27bde13151ab65d5b09c9b5e970b1680c9d7cec2dd:92)
+10-29 20:07:19.324 14090 14090 E AndroidRuntime: 	... 17 more
+10-29 20:07:34.342 14090 14092 I d.ohiofiles.app: Thread[2,tid=14092,WaitingInMainSignalCatcherLoop,Thread*=0xb400007e70400000,peer=0x20a8020,"Signal Catcher"]: reacting to signal 3
+10-29 20:07:34.342 14090 14092 I d.ohiofiles.app: 
+10-29 20:07:34.584 14090 14092 I d.ohiofiles.app: Wrote stack traces to tombstoned
+10-29 20:07:42.188 14090 14095 W d.ohiofiles.app: userfaultfd: MOVE ioctl seems unsupported: Connection timed out

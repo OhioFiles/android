@@ -1,0 +1,10 @@
+
+cloud.ohiofiles.app.ChatCryptoInteropTest:...
+cloud.ohiofiles.app.UploadQueueRegressionTest:.
+cloud.ohiofiles.app.ui.main.MainScreenTest:.
+
+Time: 2,671
+
+OK (5 tests)
+
+

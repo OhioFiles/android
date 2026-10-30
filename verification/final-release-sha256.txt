@@ -1,0 +1,5 @@
+12a77a5c3d5432be1e636a05b344b937592b9fc79f36807a0b27f3b4f2dff60d  OhioFiles-Android.apk
+12a77a5c3d5432be1e636a05b344b937592b9fc79f36807a0b27f3b4f2dff60d  artifacts/app/outputs/apk/release/app-release.apk
+Version 2.0 (2)
+Size 2391753 bytes
+Installed base.apk matches this SHA-256 (verified by Auditor).

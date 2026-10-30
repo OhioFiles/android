@@ -1,0 +1,5 @@
+cloud.ohiofiles.app.ui.main.MainScreenTest:.
+Time: 2,072
+OK (1 test)
+
+Targeted Compose bottom-navigation component test on matching final-source debug app/test APK pair. Full You action journeys were independently exercised manually. Prior 5-test crypto/queue suite was not repeated because those implementations were unchanged in this follow-up.

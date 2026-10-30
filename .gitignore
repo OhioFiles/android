@@ -1,0 +1,69 @@
+# Built application packages
+*.apk
+*.ap_
+*.aab
+
+# OhioFiles-Android custom build output directory and gradle cache (build.gradle.kts)
+artifacts/
+
+# Gradle build cache and outputs
+.gradle/
+build/
+*/build/
+**/build/
+.gradletasknamecache
+
+# Kotlin compiler cache
+.kotlin/
+.kotlinc/
+
+# Java and Dalvik VM class / bytecode files
+*.class
+*.dex
+
+# Local configuration and SDK paths
+local.properties
+*.local.properties
+
+# Keystore and signing files
+*.jks
+*.keystore
+*.p12
+*.key
+signing.properties
+secrets.properties
+
+# Android Studio and IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+.idea_modules/
+
+# Android Studio profiling and NDK builds
+captures/
+.externalNativeBuild/
+.cxx/
+output.json
+
+# Log and crash files
+*.log
+hs_err_pid*
+replay_pid*
+
+# Python cache (verification / QA scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+TO-DO.md
